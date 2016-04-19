@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @province.name %>
+</p>
+
+<p>
+  <strong>Text:</strong>
+  <%= @province.text %>
+</p>
+
+<p>
+  <strong>Short text:</strong>
+  <%= @province.short_text %>
+</p>
+
+<p>
+  <strong>Image:</strong>
+  <%= @province.image %>
+</p>
+
+<p>
+  <strong>Pv count:</strong>
+  <%= @province.pv_count %>
+</p>
+
+<p>
+  <strong>Topic:</strong>
+  <%= @province.topic_id %>
+</p>
+
+<%= link_to 'Edit', edit_province_path(@province) %> |
+<%= link_to 'Back', provinces_path %>

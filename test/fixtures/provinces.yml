@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  text: MyText
+  short_text: MyString
+  image: MyString
+  pv_count: 1
+  topic_id: 1
+
+two:
+  name: MyString
+  text: MyText
+  short_text: MyString
+  image: MyString
+  pv_count: 1
+  topic_id: 1
